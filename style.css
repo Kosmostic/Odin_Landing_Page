@@ -1,7 +1,20 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
 body {   
     font-family: Roboto, sans-serif;
-    margin: 0px;
+    margin: 0;
+    padding: 0;
     min-height: 100vh;
+    width: 100%;
+}
+
+#container {
+    max-width: 1920px;
+    margin: auto;
+    padding: auto;
 }
 
 
@@ -14,7 +27,7 @@ body {
 .header {
     display: flex;
     color: #F9FAF8;
-    background-color: #1F2937;
+    background-color: #0266c8;
     justify-content: space-between;
     align-items: center;
     padding:0 80px    
@@ -34,20 +47,20 @@ ul li{
 /*MAIN*/
 .main {
     display: flex;
-    background-color: #1F2937;
+    background-color: #00a8ff;
     padding:60px 80px;
     justify-content:space-between;
     align-items: stretch;
 
 }
 
-.text{
+.main_container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
 }
-.SA_logo img{
+.SA_logo img {
     width: 300px;
     max-width: 100%;
 }
@@ -66,12 +79,50 @@ ul li{
 /*BUTTONS*/
 .button { 
     display: flex;
-    background-color: #3882F6;
+    background-color: #0266c8;
     border: none;
     border-radius: 8px;
     padding: 8px 16px;
     font-weight: bolder;
     color: #F9FAF8; 
- 
 }
+
+/*MIDDLE*/
+
+.middle {
+    padding:0px 80px;
+}
+
+.middle_title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    margin: 60px 80px;
+    color: #1F2937;
+}
+
+.middle_container {   
+    display: flex;
+    justify-content: center;
+    gap: 52px
+}
+
+.description {
+    text-align: center;
+    max-width: 200px;
+    margin-top: 10px;
+}
+
+.portrait img {  
+    display: flex;
+    flex-shrink: 0;  
+    border: 8px;
+    border-style: solid;
+    border-color: #b28bc0;
+    border-radius: 15px;
+}
+
+
+
+
 
