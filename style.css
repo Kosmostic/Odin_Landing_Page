@@ -1,25 +1,16 @@
 html{
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
-
 body {   
     font-family: Roboto, sans-serif;
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    width: 100%;
+    max-width: 1920px;
+    margin: 0px auto;
+    padding: 0px auto;
     background-color: #FFA500;
 }
 
-#container {
-    max-width: 1920px;
-    margin: auto;
-    padding: auto;
-    background-color: #F9FAF8;
-    
 
-}
 
 
 /*.SA_logo img {
@@ -54,19 +45,17 @@ ul li{
     background-color: #00a8ff;
     padding:60px 80px;
     justify-content:space-between;
-    align-items: stretch;
-
+    gap: 50px;
 }
 
 .main_container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
+    gap: 10px
 }
+
 .SA_logo img {
-    width: 300px;
-    max-width: 100%;
+    max-height: 300px;
 }
 
 .main_title {
@@ -77,24 +66,28 @@ ul li{
 
 .sub_text {
     font-size: 18px;
-    color: #E5E7EB;    
+    color: #E5E7EB;
+    min-width: 150px;        
 }
 
 /*BUTTONS*/
-.button { 
-    display: flex;
+
+.button {
     background-color: #0266c8;
-    border: none;
     border-radius: 8px;
     padding: 8px 16px;
     font-weight: bolder;
-    color: #F9FAF8; 
+    color: #F9FAF8;
+    min-width: 50px;
+    max-width: 100px;
+    text-align: center;
 }
 
 /*MIDDLE*/
 
 .middle {
     padding:60px 80px;
+    background-color: #F9FAF8;
 }
 
 .middle_title {
@@ -154,5 +147,6 @@ ul li{
 /*SIGNUP*/
 
 .signup {
-    display: flex
+    display: flex;
+    padding:60px 80px;
 }
