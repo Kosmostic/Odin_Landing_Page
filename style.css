@@ -10,12 +10,9 @@ body {
     background-color: #FFA500;
 }
 
-
-
-
-/*.SA_logo img {
-    width: 200px;
-}*/
+#container {
+    overflow: hidden;
+}
 
 /*HEADER*/
 
@@ -25,7 +22,7 @@ body {
     background-color: #0266c8;
     justify-content: space-between;
     align-items: center;
-    padding:0 80px    
+    padding:0 80px;    
 }
 
 .header-logo {
@@ -40,6 +37,7 @@ ul li{
 }
   
 /*MAIN*/
+
 .main {
     display: flex;
     background-color: #00a8ff;
@@ -72,15 +70,28 @@ ul li{
 
 /*BUTTONS*/
 
-.button {
+.button1 {
     background-color: #0266c8;
     border-radius: 8px;
+    border: none;
     padding: 8px 16px;
     font-weight: bolder;
     color: #F9FAF8;
-    min-width: 50px;
-    max-width: 100px;
+    min-width: 100px;
     text-align: center;
+    
+}
+
+.button2 {
+    background-color: #0266c8;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 16px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    min-width: 100px;
+    text-align: center;
+    outline: 2px solid;
 }
 
 /*MIDDLE*/
@@ -101,7 +112,7 @@ ul li{
 .middle_container {   
     display: flex;
     justify-content: center;
-    gap: 52px
+    gap: 52px;
 }
 
 .description {
@@ -124,11 +135,11 @@ ul li{
 .quote {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     padding:60px 80px;
     background-color: #b28bc0;
     font-size: 36px;
+    color: #E5E7EB;
     font-style: italic;
     font-weight: lighter;
 }
@@ -148,5 +159,26 @@ ul li{
 
 .signup {
     display: flex;
+    background-color: #f195ac;
     padding:60px 80px;
+    justify-content: center;
 }
+
+.signup_container {
+    background-color: #f4afc2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;  
+    color: #F9FAF8;
+    width: 1000px;
+}
+
+.signup_title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+
+
