@@ -17,6 +17,7 @@ body {
     margin: auto;
     padding: auto;
     background-color: #F9FAF8;
+    
 
 }
 
@@ -93,14 +94,14 @@ ul li{
 /*MIDDLE*/
 
 .middle {
-    padding:0px 80px;
+    padding:60px 80px;
 }
 
 .middle_title {
     text-align: center;
     font-size: 36px;
     font-weight: 800;
-    margin: 60px 80px;
+    margin-bottom: 60px;
     color: #1F2937;
 }
 
@@ -125,7 +126,33 @@ ul li{
     border-radius: 15px;
 }
 
+/*QUOTE*/
 
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:60px 80px;
+    background-color: #b28bc0;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
 
+.quotee {
+    text-align: right;
+    font-weight: bold;
+    font-style: normal;    
+    font-size: 26px;
+}
 
+.quote_container {
+    max-width: 1000px;
+}
 
+/*SIGNUP*/
+
+.signup {
+    display: flex
+}
