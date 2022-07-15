@@ -19,6 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: #f195acgi;
 }
 
 /*HEADER*/
@@ -69,11 +70,13 @@ a:hover {
 
 .main_container {
     display: flex;
-    gap: 30px
+    gap: 30px;
 }
 
-#VC_logo {
-    max-height: 300px;
+.main_text_container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .main_title {
@@ -85,6 +88,10 @@ a:hover {
 .sub_text {
     color: #E5E7EB;
     min-width: 150px;        
+}
+
+#VC_logo {
+    max-height: 300px;
 }
 
 /*BUTTONS*/
@@ -183,6 +190,7 @@ a:hover {
     background-color: #f4afc2;
     padding:60px 80px;
     justify-content: center;
+    min-height:100%;    
 }
 
 .signup_container {
@@ -193,6 +201,7 @@ a:hover {
     padding: 40px 80px;  
     color: #F9FAF8;
     width: 1000px;
+    
 }
 
 .signup_title {
@@ -204,10 +213,10 @@ a:hover {
 
 .footer {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #0266c8;
-    padding:40px 80px;
     color: #F9FAF8;
+    background-color: #0266c8;
+    justify-content: center;
+    align-items: center;
+    padding:40px 0px;    
 }   
 
